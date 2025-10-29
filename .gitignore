@@ -1,0 +1,35 @@
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.phpunit.result.cache
+docker-compose.override.yml
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/.idea
+/.vscode
+# === Docker / DB runtime ===
+/docker/mysql/data/
+/docker/mysql/dumps/
+/docker/php/log/
+/docker/nginx/log/
+
+# === Laravel ===
+/src/vendor/
+/src/node_modules/
+/src/storage/*.key
+/src/storage/logs/
+/src/storage/framework/cache/
+/src/storage/framework/views/
+/src/storage/framework/sessions/
+/src/bootstrap/cache/
+/src/.env
+
+# OS/IDE
+.DS_Store
+*.log
